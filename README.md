@@ -96,6 +96,8 @@ Place the datasets Fake.csv and True.csv in the project directory and run the da
    ```bash
    jupyter notebook "new project.ipynb"
    ```
+   ![new 2](https://github.com/user-attachments/assets/f5fb7ba7-8ac3-4014-86b6-7804e310d618)
+
 Run the Streamlit app:
 bash
 Copy
