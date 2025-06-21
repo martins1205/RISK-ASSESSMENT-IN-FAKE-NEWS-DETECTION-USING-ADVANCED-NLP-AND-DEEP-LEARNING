@@ -62,11 +62,11 @@ Bidirectional LSTM architecture for context-aware processing.
 Multiple layers with dropout.
 Achieves 99.8% accuracy .
 ##  Performance Metrics
-MODEL           ACCURACY              FALSE POSITIVE RATE (FPR)    FALSE NEGATIVE RATE (FNR)        OVERALL ERROR RATE (OER)
-BERT            99.97%                  0.0                             0.0009                          0.0005
-MiniLM          99.9%                   0.0006                          0.0005                          0.0005
-LSTM            99.4%                   0.0101                          0.0019                          0.0056
-BLSTM           99.8%                   0.0006                          0.0028                          0.0018
+MODEL   ACCURACY  FALSE POSITIVE RATE    FALSE NEGATIVE RATE    OVERALL ERROR RATE 
+BERT     99.97%         0.0                  0.0009                  0.0005
+MiniLM   99.9%         0.0006                 0.0005                   0.0005
+LSTM     99.4%         0.0101                 0.0019                   0.0056
+BLSTM    99.8%         0.0006                 0.0028                   0.0018
 
 # Installation and Setup
 1. Install Dependencies
@@ -81,6 +81,7 @@ Install required packages:
    ```
 2. # Download the Model
 Ensure the trained BERT model file and its associated files are in the project directory.
+Due to large files it can't be upload here
 
 3. # Prepare the Data
 Place the datasets Fake.csv and True.csv in the project directory and run the data preprocessing scripts.
